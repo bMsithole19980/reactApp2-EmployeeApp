@@ -1,0 +1,49 @@
+{
+  "employee": [
+    {
+      "id": 1,
+      "name": "Bongani",
+      "surname": "Sithole",
+      "email": "bmsjh12@gmail.com",
+      "phone": "+27730693340",
+      "image": "images/Teacher.jpg",
+      "position": "technical Engineer"
+    },
+    {
+      "id": 2,
+      "name": "John",
+      "surname": "Clive",
+      "email": "john8765@gmal.com",
+      "phone": "+27838901707",
+      "position": "Dentist",
+      "image": "C:\\fakepath\\lecturer.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Annelie",
+      "surname": "Makolane",
+      "email": "annMako20003@gmail.com",
+      "phone": "0735468218",
+      "position": "Science Teacher",
+      "image": "C:\\fakepath\\Teacher.jpg"
+    },
+    {
+      "id": 4,
+      "name": "prudence",
+      "surname": "van wyk",
+      "email": "wykPru878@gmail.com",
+      "phone": "0745813649",
+      "position": "Accountant",
+      "image": "C:\\fakepath\\accountant.jpg"
+    },
+    {
+      "id": 5,
+      "name": "David",
+      "surname": "Salah",
+      "email": "sal45DAv@gmial.com",
+      "phone": "0736584925",
+      "position": "CEO",
+      "image": "C:\\fakepath\\CEO.jpg"
+    }
+  ]
+}

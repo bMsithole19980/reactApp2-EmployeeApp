@@ -1,0 +1,63 @@
+*{
+  margin:0;
+  padding: 0;
+}
+body{
+  background-color: white;
+
+}
+.Appl h1{
+  justify-content: center;
+  align-items: center;
+  
+  display: flex;
+  border-width: 20px;
+  border-style: none;
+  background-color:rgba(95, 148, 160, 0.787);
+  color: antiquewhite;
+
+}
+.body{
+  justify-items: center;
+  align-items: center;
+}
+.Table{
+  position: absolute;
+  background-color: black;
+  left: 50px;
+  right: 50px;
+  width: 60px;
+  height: 500px;
+  border-spacing: 0;
+
+}
+.card{
+  
+  align-items: center;
+  
+  
+}
+.NewForm h2{
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn{
+  align-items: right;
+  justify-content: right;
+}
+.card-body{
+  background-color: aqua;
+}
+.container{
+  justify-content: center;
+  align-items: center;
+}
+/**/
+/* styles.css */
+
+.photo {
+  height: 100px;
+  width: 150px;
+}
