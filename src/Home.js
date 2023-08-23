@@ -51,7 +51,10 @@ const Home =()=>{
     return(
         <div className="Container">
             <div className="card">
-               <h2>Employee listing</h2>
+                <div className="card-header">
+                <h2>Employee listing</h2>
+                </div>
+               
             </div>  
            <div className="card-body">
             <div className="btn">
@@ -63,7 +66,7 @@ const Home =()=>{
                         <input onChange={event=>setSearch(event.target.value)}  placeholder="Search by id" type="search" class="form-control" />
 
                     </div>
-                    <button  className="btn btn-primary" type="button" >
+                    <button  className="btn btn-primary round" type="button" >
                         <i className="fas fa-search"></i>
                     </button>
                 </div>
@@ -77,7 +80,7 @@ const Home =()=>{
            
            
            <table className="table table-bordered">
-                    <thead className=" table-dark">
+                    <thead className=" table-info">
                         <tr>
                             
                             <th>ID</th>
@@ -106,7 +109,7 @@ const Home =()=>{
                                     <td>{items.position}</td>
                                     <td>
                                         <a onClick={()=>{LoadUpdate(items.id)}}  className="btn btn-success">Edit</a>
-                                        <a onClick={()=>{LoadDetails(items.id)}}  className="btn btn-success">Read</a>
+                                        <a onClick={()=>{LoadDetails(items.id)}}  className="btn btn-info">Read</a>
                                         <a onClick={()=>{LoadDelete(items.id)}} className="btn btn-danger">Delete</a>
                                         
                                     </td>

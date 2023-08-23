@@ -10,40 +10,40 @@
       "position": "technical Engineer"
     },
     {
-      "id": 2,
-      "name": "John",
-      "surname": "Clive",
-      "email": "john8765@gmal.com",
-      "phone": "+27838901707",
-      "position": "Dentist",
-      "image": "C:\\fakepath\\lecturer.jpg"
-    },
-    {
       "id": 3,
-      "name": "Annelie",
-      "surname": "Makolane",
-      "email": "annMako20003@gmail.com",
-      "phone": "0735468218",
-      "position": "Science Teacher",
-      "image": "C:\\fakepath\\Teacher.jpg"
-    },
-    {
-      "id": 4,
-      "name": "prudence",
-      "surname": "van wyk",
-      "email": "wykPru878@gmail.com",
-      "phone": "0745813649",
-      "position": "Accountant",
-      "image": "C:\\fakepath\\accountant.jpg"
-    },
-    {
-      "id": 5,
-      "name": "David",
-      "surname": "Salah",
-      "email": "sal45DAv@gmial.com",
-      "phone": "0736584925",
+      "name": "Mavin",
+      "surname": "Gordon",
+      "email": "Gordon1475@gmail.com",
+      "phone": "074452169",
       "position": "CEO",
       "image": "C:\\fakepath\\CEO.jpg"
+    },
+    {
+      "name": "Maxwell",
+      "surname": "Sithole",
+      "email": "Sithole1452@gmail.com",
+      "phone": "074512639",
+      "position": "software developer",
+      "image": "blob:http://localhost:3000/10827912-b3f1-41af-9e15-9b5b89de4463",
+      "id": 6
+    },
+    {
+      "name": "Gordon",
+      "surname": "vector",
+      "email": "vert23!@gmail.com",
+      "phone": "0674523981",
+      "position": "Pilot",
+      "image": "blob:http://localhost:3000/a0d42626-a60e-469d-8e71-297099738106",
+      "id": 7
+    },
+    {
+      "name": "Johhanes",
+      "surname": "Baloi",
+      "email": "BLJ254@gmail.com",
+      "phone": "074526819",
+      "position": "Assistance Miner",
+      "image": "blob:http://localhost:3000/787291ab-c915-4b3b-8ff8-f680c1a7f089",
+      "id": 8
     }
   ]
 }
