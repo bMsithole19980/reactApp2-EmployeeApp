@@ -6,7 +6,6 @@ import EmpEdit from './empEdit';
 import CreateEmployee from './createEmployee';
 import React from 'react';
 import { BrowserRouter , Routes, Route } from 'react-router-dom';
-import { useState } from 'react';
 import EmpDetails from './empDetails';
 
 

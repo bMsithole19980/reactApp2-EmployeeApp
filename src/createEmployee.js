@@ -1,12 +1,11 @@
-import { Link, useNavigate ,useNavigation } from "react-router-dom"
+import { Link,useNavigate } from "react-router-dom"
 import { useState } from 'react';
 import axios from 'axios';
 
 
 function CreateEmployee(props){
 
-  // useState
-    //const navigate =useNavigate()
+
     const navigation =useNavigate();
   
     const [id, setID]= useState('');
@@ -16,12 +15,26 @@ function CreateEmployee(props){
     const [phone, setPhone]= useState('');
     const [position, setPosition]= useState('');
     const [image, setImage]= useState({data: ''});
-    const[validation,valchange]=useState(false);
+    // const[validation,valchange]=useState(false);
     
     const handleSubmit=(e)=>{
         e.preventDefault();
-        axios.post("http://localhost:8000/employee",empData
-        ).then(alert('Saved successfully'), navigation("/"));
+        const empData={
+            name:name,
+            surname:surname,
+            email:email,
+            phone:phone,
+            position:position,
+            image:image.data
+           }
+        axios.post("http://localhost:8000/EmpDetails",empData)
+        .then(()=>{
+            alert('Successful saved');
+            navigation('/')
+        })
+        .catch((error)=>{
+            console.error(error);
+        });
       //fetch data
       /*
       */
@@ -29,14 +42,7 @@ function CreateEmployee(props){
 
    }
 
-   const empData={
-    name:name,
-    surname:surname,
-    email:email,
-    phone:phone,
-    position:position,
-    image:image.data
-   }
+  
     
     const handleImage = (e) => {
         const img = {
@@ -91,7 +97,7 @@ function CreateEmployee(props){
                                 <div className="col-1g-12">
                                     <div className="form-group">
                                         <label>Position</label>
-                                        <input required value={position} onChange={e => setPosition(e.target.value)} className="form-control" placeholder="Enter employee phone number" ></input>
+                                        <input required value={position} onChange={e => setPosition(e.target.value)} className="form-control" placeholder="Enter employee position" ></input>
                                     </div>
                                 </div>
                                 <div className="col-1g-12">
